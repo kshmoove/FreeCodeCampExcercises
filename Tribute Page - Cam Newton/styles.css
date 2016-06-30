@@ -1,0 +1,67 @@
+
+
+header {
+	margin-top: 1%;
+	padding-top: 18em;
+	background-image: url("Images/cam-banner.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+
+h1 {
+	padding-top: 1%;
+	padding-bottom: 1%;
+	/* Below margin seems to have no effect.  Being overridden by other
+		areas that impact h1
+
+	margin-top: 20em;
+
+	*/
+	text-align: center;
+	background-color: rgba(0,0,0,0.6);
+
+}
+
+.panther-blue {
+	color: #0088CE;
+
+}
+
+.panther-gray {
+	color: #A5ACAF;
+}
+
+.team-name {
+	color: #0088CE;
+	text-shadow: -1px 0px #A5ACAF, 0px 1px #A5ACAF, 1px 0px #A5ACAF, 0px -1px #A5ACAF;
+
+}
+
+.small-img {
+	width: 3em;
+	height: auto;
+
+}
+
+.no-bottom {
+	/* Invalid value for padding according to Chrome. 
+	padding-bottom: -10em;
+	*/
+	margin-bottom: 0em;
+	line-height: 0;
+
+}
+
+.grid-border {
+
+	border-width: 1px;
+	border-color: #000;
+	border-style: solid;
+	
+}
+
+
+
+
