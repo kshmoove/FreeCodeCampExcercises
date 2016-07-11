@@ -1,0 +1,110 @@
+#logo {
+  font-family: 'Rock Salt';
+  color: white;
+  font-size: 1.2em;
+}
+
+/*Of note below: The only way I was able to override the default Bootstrap classes was to be extremely specific.  Even id was not successful in some cases.  Shouldn't be a problem outside of codepen since I can arrange css priority*/
+
+.nav.navbar-nav.navbar-right li a {
+  background-color: #00C5CD;  
+  color: white;  
+}
+.navbar-brand {
+    padding-top: 1.3em;
+    padding-bottom: 1.3em;
+    height: 3.5em;
+    background-color: #00C5CD;
+    
+}
+.navbar-inverse .navbar-header > a:hover {
+  background-color: #00868B;
+}
+.navbar-header {
+  height: 4.5em;
+}
+.nav-list {
+  /* space nav buttons out */
+  margin-left: 2px;
+}
+.nav.navbar-nav.navbar-right li {
+  
+  padding-top: 6px;
+  padding-bottom: 0px;
+  
+}
+
+
+li.active {
+  border-top: none;
+  /*Save for later
+  border-bottom: .5em solid #00868B;*/
+  border-bottom: .5em solid white;
+}
+
+
+/*Hover effect for nav items not currently selected */
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+  background-color: #00868B;
+}
+/*Hover effect for active nav items*/
+.navbar-inverse .navbar-nav > li.active > a:hover, .navbar-inverse .navbar-nav > li.active > a:focus{
+  background-color: #00868B;
+}
+
+
+/*sample
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    background-color: #00868B;
+}*/
+
+body {
+  background-color: white;
+}
+
+#main-container {
+  
+  background-color: rgba(201, 201, 201, 0.2);
+  
+  padding: 10px .5em .5em .5em;
+}
+
+
+#about-pic {
+  width: 8em;
+  height: auto;
+  padding: 1px;
+  margin-right: 1em;
+  float: left;
+  clear: left;
+}
+
+#about-me {
+  padding: 1px;
+}
+#portfolio {
+  clear: both;
+  margin-top: 5em;
+}
+#project-box {
+  background-color: white;
+  width: 35em;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: .2em 2em 1em 2em;
+}
+
+#project1, #project2, #project3 {
+  background-color: rgba(201, 201, 201, 0.2);
+  width: 31em;
+  height: 20em;
+
+}
+
+#contact-header {
+  color: #00C5CD;
+}
+#contact {
+  padding: 1em 10em 1em 10em;
+}

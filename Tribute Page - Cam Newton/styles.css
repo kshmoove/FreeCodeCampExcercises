@@ -2,11 +2,15 @@
 
 header {
 	margin-top: 1%;
+	margin-left: 0em !important;
+	margin-right: 0em !important;
 	padding-top: 18em;
 	background-image: url("Images/cam-banner.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	padding-left: 0px;
+	padding-right: 0px;
 
 }
 
@@ -53,6 +57,10 @@ h1 {
 	line-height: 0;
 
 }
+.side-padding {
+	padding-left: -15px !important; 
+	padding-right: -15px !important;
+}
 
 .grid-border {
 
@@ -72,5 +80,9 @@ table th, td {
 }
 
 
+#stats {
+
+
+}
 
 
